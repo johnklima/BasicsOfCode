@@ -8,13 +8,14 @@ public class Dialog : MonoBehaviour
 
     int currentIndex = 0;
 
+    //this is just for demo, has nothing to do with dialog
     public string[] someText;
 
 
     private void Start()
     {
-    
-        for(int i = 0; i < someText.Length; i++)
+        //this is just for demo, has nothing to do with dialog
+        for (int i = 0; i < someText.Length; i++)
         {
 
             Debug.Log(someText[i]);
@@ -23,6 +24,7 @@ public class Dialog : MonoBehaviour
 
     void Update()
     {
+        //this is just for demo, has nothing to do with dialog
         return;
 
         if(someText.Length == 0)
