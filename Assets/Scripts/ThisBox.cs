@@ -12,7 +12,7 @@ public class ThisBox : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //we start with the "root" top of the tre, in this case named "TheStory"
+        //we start with the "root" top of the tree, in this case named "TheStory"
         nextDialog = transform;
     }
 
@@ -23,7 +23,7 @@ public class ThisBox : MonoBehaviour
         //check for single key press
         if (Input.GetKeyDown(KeyCode.Space) || hasTouched )
         {
-            hasTouched = false;
+            hasTouched = false;  //one shot, reset the flag
 
             //generate a random, and choose the child (0 or 1)
             int child = Random.Range(0, nextDialog.childCount);
@@ -49,7 +49,7 @@ public class ThisBox : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if(other.tag == "blueBall")
         {
             hasTouched = true;
         }

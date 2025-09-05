@@ -317,6 +317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: ninja
+  someText: []
 --- !u!1 &191385429
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,6 +441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: Mary had a
+  someText: []
 --- !u!1 &293798082
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,6 +487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: lamb
+  someText: []
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,6 +791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: ninja
+  someText: []
 --- !u!1 &457886745
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +839,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: mary didnt have a
+  someText:
+  - 3333
+  - eeeee
+  - ffffrff
 --- !u!1 &488451287
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,6 +888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: ninja
+  someText: []
 --- !u!1 &533816144
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,6 +934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: lamb
+  someText: []
 --- !u!1 &613496682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,6 +1058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: Big
+  someText: []
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,6 +1155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: Little
+  someText: []
 --- !u!1 &1060046841
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,7 +1171,7 @@ GameObject:
   - component: {fileID: 1060046842}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Player
+  m_TagString: blueBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1312,6 +1324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: Big
+  someText: []
 --- !u!1 &1286902431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: lamb
+  someText: []
 --- !u!1 &1433114507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1591,6 +1605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: Little
+  someText: []
 --- !u!1 &1901316531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,6 +1651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: lamb
+  someText: []
 --- !u!1 &1947865578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,6 +1878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyline: ninja
+  someText: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
